@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/list_style .css">
+    
+    <title>Decagon Attendace</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href=""> check List</a></li>
+                    <li><a href="">Member</a></li>
+                </ul>
+
+            </nav>
+
+            <section class="update_page">
+
+             
+            </section>
+            <section> 
+                <div class="banner">
+
+                </div>
+            </section>
+        </header>
+
+                <!-- update -->
+        
+        <div class=" col-md-6 mr update_display" style="display: none; margin:10px auto">
+                <form action="">
+                    <div class="form-group">
+                        <input type="text" name="firstName " class="form-control firstName " placeholder="please enter your firstName">
+                    </div>
+                    <div class="form-group">
+                            <input type="text"  name="LastName" class="form-control LastName" placeholder="please enter your LastName">
+                        </div>
+                    
+                    <div class="form-group">
+                        <input type="text" name="UserName" class="form-control" placeholder="please enter your UserName">
+                    </div>
+    
+                    <div class="form-group">
+                            <input type="email" name="address" class="form-control" placeholder="please enter your email Address">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" class="form-control confirm_email" placeholder="please confirm email">
+                        </div>
+                        <div class="form-group">
+                                <input type="email"  name="confirmEmail" class="form-control phoneNumber" placeholder="please Enter phoneNumber">
+                            </div>
+                    <div class="form-group">
+                        <input type="password" name="password" class="form-control password" placeholder="please enter your password">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" name="confirmpassword" class="form-control confirm_password"
+                            placeholder="please enter your password">
+                    </div>
+                    
+                    <div class="form-group">
+                            <textarea  name="area" class="form-control confirm_email" placeholder="please enter your Address"></textarea>
+                        </div>
+                    <div class="">
+                        <input type="button" class="form-control btn btn-success" value="update" id="update">
+                    </div>
+    
+                </form>
+            </div>
+
+<!-- end update -->
+
+        <section>
+            <table class="table table-bordered bg-default">
+                <thead class="thead-dark">
+                    <th>s/n</th>
+                    <th> First Name</th>
+                    <th> Last Name</th>
+                    <th> phone Number</th>
+                    <th> Email Address</th>
+                    <th> Action</th>
+                </thead>
+                <tbody id="listOfmember">
+                   
+
+                </tbody>
+                <tfoot>
+                    <tr>
+                            <td>s/n</td>
+                            <td> First Name</td>
+                            <td> Last Name</td>
+                            <td> phone Number</td>
+                            <td> Email Address</td>
+                            <td> Action</td>
+                    </tr>
+                        
+                </tfoot>
+
+            </table>
+        </section>
+
+        <footer>
+
+        </footer>
+    </div>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/interviewList.js"></script>
+  
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <style>
+    .welMsg{
+        margin-top: 5%;
+       
+    text-align: center;
+    text-transform: uppercase
+    }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <header class="nav-bar mr-8">
+
+
+            <h1 class="welMsg"> welcome greystone</h1>
+            <h4 class="text-center"> Register Form</h4>
+           
+        </header>
+
+
+
+
+        <div class=" col-md-6 col-md-offset-6 mr" style="margin:10% auto">
+            <form action="" name="form" enctype="multipart/form-data" method="POST">
+                <div class="form-group">
+                    <input type="text" data-toggle="tooltip" title="firstName" class="form-control firstName " placeholder="please enter your firstName">
+                </div>
+                <div class="form-group">
+                        <input type="text" data-toggle="tooltip" title="Last Name" class="form-control lastName" placeholder="please enter your LastName">
+                    </div>
+                
+                <div class="form-group">
+                    <input type="text" data-toggle="tooltip" title="Username" class="form-control" placeholder="please enter your UserName">
+                </div>
+
+                <div class="form-group">
+                        <input type="email" data-toggle="tooltip" title=" Email!" class="form-control email" placeholder="please enter your email Address">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" data-toggle="tooltip" title="  confirm email!" class="form-control confirm_email" placeholder="please confirm email">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" data-toggle="" title="password" class="form-control password" placeholder="please enter your password">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" data-toggle="tooltip" title="confirm password" class="form-control confirm_password"
+                            placeholder="please enter your password">
+                    </div>
+                    <div class="form-group">
+                            <input type="tel" title="phone Number" class="form-control phoneNumber" placeholder="please Enter phoneNumber">
+                        </div>
+                
+
+                <div class="form-group">
+                    <textarea type="text" data-toggle="tooltip" title="Address" class="form-control address" ></textarea>
+                </div>
+
+                <form id="form" action="api/Upload" name="form"  enctype="multipart/form-data" method="post"> 
+                        <div class="form-group">
+                                <input type="file"  id="files" name="files"  size="1" multiple  data-toggle="tooltip" title="Upload File"  class="form-control"/>
+                                <input type="button" id="uploadFile" value="uploadFiles">
+                                <div>
+                                    <div class="bar"></div>
+                                    <div class="percent">0%</div>
+                                </div>
+                                <div id="status">
+            
+                                </div>
+                            </div>
+                 </form> 
+                
+                
+                
+                  
+                <div class="">
+                    <input type="submit" class="form-control btn btn-success" value="Register" id="submit">
+                </div>
+
+            </form>
+        </div>
+
+       
+        <footer>
+            <div class="foot">
+                <p> copy right &copy; greystone partners limited </p>
+            </div>
+
+        </footer>
+
+    </div>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/post.js"></script>
+
+    <script>
+   
+    </script>
+</body>
+
+</html>
+
+
